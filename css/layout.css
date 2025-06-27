@@ -1,0 +1,129 @@
+.en1{font-family: "Cormorant Garamond", serif;font-weight: bold;}
+.en2{font-family: 'Raleway', sans-serif;}
+.kor2{font-family: 'GmS_M';  }
+
+/* 
+#eeeeee   배경세로선
+#f6f6f6  큰텍스트
+#e5e5e5
+
+본문글자색
+#ebebeb
+#c0c0c0
+#000 */
+
+
+body{
+  background: repeating-linear-gradient(to right, #fff, #fff calc(20% - 1px), #eee calc(20% - 1px), #eee 20%);
+}
+
+#wrap{display: flex;}
+
+.top-title{
+  position: absolute;
+  top: -150px;
+  right: -10px;
+  font-family: "helveticaB", sans-serif;
+  color: #f6f6f6;
+  font-size: 120px;
+  letter-spacing: -16px;
+  text-transform: capitalize;
+}
+
+
+.left{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100vh;
+  padding: 30px;
+}
+
+.left .logo{
+  margin: 15px 0 50px;
+}
+.left .logo img{
+  width: 100px;
+}
+
+
+.left nav ul li a:first-letter{
+  color: #000;
+  font-weight: bold;
+  }
+.left nav ul li a{
+  position: relative;
+  display: block;
+  font-family: "helveticaB", sans-serif;
+  color: #c0c0c0;
+  font-size: 24px;
+}
+.left nav ul li a:before{
+  content: attr(data-text);
+  position: absolute;
+  color: #000;
+  top: 0;
+  left: 0;
+  width: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.left nav ul li a:hover:before{width: 100%;}
+
+.left .footer{
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 13px;
+  color: #999;
+}
+
+
+.right{
+  padding-top: 200px;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  height: 100vh;
+}
+
+
+.right section{
+  padding-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+background: repeating-linear-gradient(to right, #fff, #fff calc(20% - 1px), #eee calc(20% - 1px), #eee 20%);
+
+(1)#fff : 시작 색: 흰색
+(2)#fff calc(20% - 1px) : **0%에서부터 (20% - 1px)**까지는 흰색
+(3)#eee calc(20% - 1px) : 바로 그 지점(20% - 1px)에서 회색(#eee)으로 바뀜 경계선 효과를 주기 위해 1픽셀 두께의 회색 줄을 만듬
+(4)#eee 20% : 회색은 정확히 20% 지점까지만 유지됩니다. 즉, 회색은 1픽셀 두께만 존재
+*/
