@@ -1,0 +1,20 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 464.83 365.11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ec1c24;
+      }
+
+      .cls-2 {
+        font-size: 174.34px;
+        fill: #fff;
+        font-family: GmarketSansTTFBold, Gmarket Sans TTF;
+        letter-spacing: -0.1em;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-1" d="M475.43,133.66l170.52.7s176.2-8.05,176.2,192.29c0,0-4,172.12-170.72,172.12h-176Z" transform="translate(-377.13 -133.66)"/>
+    <text class="cls-2" transform="matrix(0.96, 0, -0.28, 0.96, 17.06, 234.66)">WEB</text>
+  </g>
+</svg>
